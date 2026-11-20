@@ -1,20 +1,16 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/senhorxuz/senhorxuz/main/assets/capa-compacta.png">
-  <img src="https://raw.githubusercontent.com/senhorxuz/senhorxuz/main/assets/capa.png" width="100%" alt="Senhor x.u.z. A luz contorna um buraco negro no meu render do Gargantua.">
-</picture>
+<a href="https://github.com/senhorxuz/AxonWorks">
+  <img src="https://raw.githubusercontent.com/senhorxuz/AxonWorks/main/docs/imagens/banner.png" width="100%" alt="Axon Works — correio de continuidade entre LLMs. Abrir o projeto.">
+</a>
 
-Faço ferramentas para trabalhar com IA e experimentos gráficos para o navegador. Dois projetos mostram bem esses lados do meu trabalho.
+**[Abrir a Axon Works ↗](https://github.com/senhorxuz/AxonWorks)** · [Instalar no computador](https://github.com/senhorxuz/AxonWorks#-come%C3%A7ar-em-3-minutos) · [Explorar a arquitetura](https://github.com/senhorxuz/AxonWorks/blob/main/docs/MASTER_ARCHITECTURE.md)
 
-### [Gargantua](https://github.com/senhorxuz/gargantua) · Computação gráfica
+## Onde paramos?
 
-O anel de luz da capa saiu deste projeto. Um shader calcula o caminho da luz ao redor de um buraco negro de Schwarzschild em tempo real. Dá para orbitar a cena, inclinar o disco e acompanhar como a imagem muda. [Ver o shader em GLSL ↗](https://github.com/senhorxuz/gargantua/blob/main/gargantua/js/shaders.js)
+Criei a **Axon Works** para responder a essa pergunta quando troco do Claude para o Codex no meio de um projeto. Uma sessão registra a decisão que tomou, o que testou e o próximo passo. A seguinte recebe esse histórico via MCP. Os registros ficam em SQLite, no meu computador.
 
-### [Axon Works](https://github.com/senhorxuz/AxonWorks) · Ferramentas para IA
+<a href="https://github.com/senhorxuz/AxonWorks#-as-telas">
+  <img src="https://raw.githubusercontent.com/senhorxuz/AxonWorks/main/docs/imagens/onde-paramos.png" width="100%" alt="Tela Onde paramos da Axon Works, com a linha do tempo de um projeto. Abrir a galeria de telas.">
+</a>
 
-Quando eu troco do Claude para o Codex no meio de um projeto, quero continuar da última decisão. A Axon guarda decisões, evidências e próximos passos em SQLite no computador. Um servidor MCP entrega esse histórico à próxima sessão. [Conhecer a interface ↗](https://github.com/senhorxuz/AxonWorks#-as-telas)
-
-### Outros projetos
-
-- **[TrendsCenter](https://github.com/senhorxuz/TrendsCenter)** — Painel de pesquisa de tendências em Reels que registra a fonte, a data e o mercado de cada sinal.
-- **[TikTok Downloader](https://github.com/senhorxuz/Tiktok-Downloader)** — Aplicativo local para organizar downloads de vídeo, individuais ou em lote, com Next.js e FFmpeg.
+**[Ver a Axon em movimento ↗](https://github.com/senhorxuz/AxonWorks/blob/main/docs/imagens/axon-em-uso.gif)** · [Ler o protocolo dos agentes](https://github.com/senhorxuz/AxonWorks/blob/main/docs/AGENT-OPERATING-PROTOCOL.md)
 
